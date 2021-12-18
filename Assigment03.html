@@ -3,28 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <title>Assigment03</title>
-    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <!--    https://kavindumihiranga.github.io/Assigment03/-->
     <style>
+        /*gray circle*/
+        body > section:nth-child(1) > section:nth-child(1) > div:nth-child(1) {
+            border: 20px solid gray;
+            width: 300px;
+            height: 300px;
+            border-radius: 500px;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+
+        }
+
+        body > section:nth-child(1) > section:nth-child(1) > div:nth-child(2) {
+            border: 20px solid red;
+            width: 250px;
+            height: 250px;
+            border-radius: 500px;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+
+        }
+
+
+
+        body > section > section {
+            display: flex;
+            height: 200px;
+            position: relative;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        body > section > section:nth-child(2) > div:nth-child(1) {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: green;
+            text-align: center;
+            font-family: Ubuntu;
+            font-weight: bold;
+            position: absolute;
+        }
+
+        body > section > section:nth-child(2) > div:nth-child(2) {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: pink;
+            text-align: center;
+            font-family: Ubuntu;
+            font-weight: bold;
+            position: absolute;
+
+        }
+
+        body > section > section:nth-child(2) > div:nth-child(3) {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: blue;
+            text-align: center;
+            font-family: Ubuntu;
+            font-weight: bold;
+            position: absolute;
+        }
 
     </style>
 </head>
 <body>
 <section>
     <section>
-<!--        main gray circle-->
+        <!--        main gray circle-->
         <div></div>
-<!--        main red circle-->
+        <!--        main red circle-->
         <div></div>
+
+
     </section>
     <section>
-<!--        hello circle-->
-        <div></div>
-<!--        how circle-->
-        <div></div>
-<!--        are circle-->
-        <div></div>
-<!--        you circle-->
-        <div></div>
+        <!--        hello-->
+        <div>Hello</div>
+        <!--        Welcome To circle-->
+        <div>Welcome To</div>
+        <!--        IJSE circle-->
+        <div>Institute of Software Engineering</div>
+
     </section>
 </section>
 </body>
