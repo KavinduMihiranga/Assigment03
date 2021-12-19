@@ -6,8 +6,12 @@
     <link href="assets/css/normalize.css" rel="stylesheet">
     <!--    https://kavindumihiranga.github.io/Assigment03/-->
     <style>
+
+        body>section{
+            height: 720px;
+        }
         /*gray circle*/
-        body > section:nth-child(1) > section:nth-child(1) > div:nth-child(1) {
+        body > section:nth-child(1) > div:nth-child(1) {
             border: 20px solid gray;
             width: 300px;
             height: 300px;
@@ -21,7 +25,7 @@
 
         }
 
-        body > section:nth-child(1) > section:nth-child(1) > div:nth-child(2) {
+        body > section:nth-child(1)> div:nth-child(2) {
             border: 20px solid red;
             width: 250px;
             height: 250px;
@@ -35,54 +39,112 @@
 
         }
 
+        /*!*body>section{*!*/
+        /*!*    display: flex;*!*/
+        /*!*    flex-direction: column;*!*/
+        /*!*}*!*/
 
 
-        body > section > section {
-            display: flex;
-            height: 200px;
+        /*body > section > section {*/
+        /*    display: flex;*/
+        /*    height: 200px;*/
+        /*    position: relative;*/
+        /*    align-items: center;*/
+        /*    flex-direction: column;*/
+        /*    overflow-y: scroll;*/
+        /*}*/
+
+        /*body > section > section:nth-child(2) > div:nth-child(1) {*/
+        /*    height: 200px;*/
+        /*    width: 200px;*/
+        /*    border-radius: 50%;*/
+        /*    background-color: green;*/
+        /*    text-align: center;*/
+        /*    font-family: Ubuntu;*/
+        /*    font-weight: bold;*/
+        /*    position: absolute;*/
+        /*}*/
+
+        /*body > section > section:nth-child(2) > div:nth-child(2) {*/
+        /*    height: 200px;*/
+        /*    width: 200px;*/
+        /*    border-radius: 50%;*/
+        /*    background-color: pink;*/
+        /*    text-align: center;*/
+        /*    font-family: Ubuntu;*/
+        /*    font-weight: bold;*/
+        /*    position: absolute;*/
+
+        /*}*/
+
+        /*body > section > section:nth-child(2) > div:nth-child(3) {*/
+        /*    height: 200px;*/
+        /*    width: 200px;*/
+        /*    border-radius: 50%;*/
+        /*    background-color: blue;*/
+        /*    text-align: center;*/
+        /*    font-family: Ubuntu;*/
+        /*    font-weight: bold;*/
+        /*    position: absolute;*/
+        /*}*/
+
+        body>section:nth-child(2)>div{
+            background-color: purple;
+            height: 280px;
+            width: 280px;
+            border-radius: 50%;
+            left: 41%;
+            display: block;
             position: relative;
-            align-items: center;
-            flex-direction: column;
-        }
 
-        body > section > section:nth-child(2) > div:nth-child(1) {
-            height: 200px;
-            width: 200px;
-            border-radius: 50%;
-            background-color: green;
-            text-align: center;
-            font-family: Ubuntu;
+            font-family: Calibri;
             font-weight: bold;
+            font-size: 30px;
             position: absolute;
-        }
-
-        body > section > section:nth-child(2) > div:nth-child(2) {
-            height: 200px;
-            width: 200px;
-            border-radius: 50%;
-            background-color: pink;
             text-align: center;
-            font-family: Ubuntu;
-            font-weight: bold;
-            position: absolute;
+
+            margin-top: 20px;
+
 
         }
 
-        body > section > section:nth-child(2) > div:nth-child(3) {
-            height: 200px;
-            width: 200px;
-            border-radius: 50%;
+  body>section:nth-child(3)>div{
             background-color: blue;
-            text-align: center;
-            font-family: Ubuntu;
+            height: 280px;
+            width: 280px;
+            border-radius: 50%;
+            left: 41%;
+            display: block;
+            position: relative;
+
+            font-family: Calibri;
             font-weight: bold;
+            font-size: 30px;
             position: absolute;
+            text-align: center;
+
         }
+        body>section:nth-child(4)>div{
+            background-color: orange;
+            height: 280px;
+            width: 280px;
+            border-radius: 50%;
+            left: 41%;
+            display: block;
+            position: relative;
+
+            font-family: Calibri;
+            font-weight: bold;
+            font-size: 30px;
+            position: absolute;
+            text-align: center;
+
+        }
+
 
     </style>
 </head>
 <body>
-<section>
     <section>
         <!--        main gray circle-->
         <div></div>
@@ -94,12 +156,17 @@
     <section>
         <!--        hello-->
         <div>Hello</div>
-        <!--        Welcome To circle-->
-        <div>Welcome To</div>
-        <!--        IJSE circle-->
-        <div>Institute of Software Engineering</div>
 
     </section>
+<section>
+    <!--        Welcome To circle-->
+    <div> Welcome to</div>
+
 </section>
+    <section>
+        <!--        IJSE circle-->
+        <div>Institute of Software Engineering</div>
+    </section>
+
 </body>
 </html>
